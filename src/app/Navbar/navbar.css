@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.appbar {
+  background-color: antiquewhite;
+}
+
+@media (min-width: 480px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 4rem;
+  }
+}
